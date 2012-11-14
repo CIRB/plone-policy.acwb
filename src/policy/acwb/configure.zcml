@@ -17,14 +17,14 @@
   <!-- -*- extra stuff goes here -*- -->
   <include package="collective.ckeditor" />
   <include package="cirb.footersitemap" />
+  <include package="collective.quickupload" />
   <include package="collective.easyslider" />
   <include package="Solgema.fullcalendar" />
-  <include package="collective.collage.maps" />
-  <include package="collective.collage.easyslider" />
   <include package="collective.gallery" />
   <include package="quintagroup.analytics" />
   <include package="collective.recaptcha" />
   <include package="qi.portlet.TagClouds" />
+  <include package="Products.PloneFormGen" />
+  <include package="collective.anysurfer" />
   <include package="plonetheme.acwb" />
-  
 </configure>
