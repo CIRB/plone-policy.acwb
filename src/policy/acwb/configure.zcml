@@ -27,4 +27,6 @@
   <include package="Products.PloneFormGen" />
   <include package="collective.anysurfer" />
   <include package="plonetheme.acwb" />
+  <include package="cirb.zopemonitoring" />
+
 </configure>

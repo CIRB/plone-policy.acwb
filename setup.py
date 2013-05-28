@@ -51,6 +51,7 @@ setup(name='policy.acwb',
           'collective.linguafaq',
           'plonetheme.acwb',
           'collective.languagemovefolders',
+          'cirb.zopemonitoring',
       ],
       extras_require={'test': ['plone.app.testing']},
       entry_points="""
