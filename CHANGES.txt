@@ -4,7 +4,8 @@ Changelog
 1.2 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Add collective.languagemovefolders
+- Add cirb.zopemonitoring
 
 
 1.1 (2012-11-14)
