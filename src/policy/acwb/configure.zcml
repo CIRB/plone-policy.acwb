@@ -14,8 +14,17 @@
       description="Installs the policy.acwb package"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
-  <!-- -*- extra stuff goes here -*- -->
-  <include package="collective.ckeditor" />
+  <genericsetup:upgradeSteps
+      source="0001"
+      destination="0002"
+      profile="policy.acwb:default">
+      <genericsetup:upgradeDepends
+          title="Fix Google Analytics"
+          import_steps="propertiestool"
+      />
+  </genericsetup:upgradeSteps>
+
+  <!-- -*- extra stuff goes here -*- --> <include package="collective.ckeditor" />
   <include package="cirb.footersitemap" />
   <include package="collective.quickupload" />
   <include package="collective.easyslider" />
@@ -28,3 +37,4 @@
   <include package="collective.anysurfer" />
   <include package="plonetheme.acwb" />
 </configure>
+
