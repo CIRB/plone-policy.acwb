@@ -1,7 +1,6 @@
 from setuptools import setup, find_packages
-import os
 
-version = '1.2.dev0'
+version = '1.2.1.dev0'
 
 long_description = (
     open('README.txt').read()
@@ -29,7 +28,7 @@ setup(name='policy.acwb',
       url='http://svn.plone.org/svn/collective/',
       license='gpl',
       packages=find_packages('src'),
-      package_dir = {'': 'src'},
+      package_dir={'': 'src'},
       namespace_packages=['policy', ],
       include_package_data=True,
       zip_safe=False,
@@ -46,11 +45,13 @@ setup(name='policy.acwb',
           'collective.gallery',
           'quintagroup.analytics',
           'collective.recaptcha',
-	  'collective.anysurfer',
+          'collective.anysurfer',
           'collective.portlet.videoanysurfer',
- 	  'collective.videoanysurfer',
-	  'collective.linguafaq',
-          'plonetheme.acwb'
+          'collective.videoanysurfer',
+          'collective.linguafaq',
+          'plonetheme.acwb',
+          'collective.languagemovefolders',
+          'cirb.zopemonitoring',
       ],
       extras_require={'test': ['plone.app.testing']},
       entry_points="""
@@ -58,6 +59,4 @@ setup(name='policy.acwb',
       [z3c.autoinclude.plugin]
       target = plone
       """,
-      setup_requires=["PasteScript"],
-      paster_plugins=["templer.localcommands"],
       )
