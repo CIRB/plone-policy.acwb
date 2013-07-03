@@ -24,7 +24,8 @@
       />
   </genericsetup:upgradeSteps>
 
-  <!-- -*- extra stuff goes here -*- --> <include package="collective.ckeditor" />
+  <!-- -*- extra stuff goes here -*- --> 
+  <include package="collective.ckeditor" />
   <include package="cirb.footersitemap" />
   <include package="collective.quickupload" />
   <include package="collective.easyslider" />
