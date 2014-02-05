@@ -39,6 +39,7 @@
   <include package="collective.anysurfer" />
   <include package="plonetheme.acwb" />
   <include package="cirb.zopemonitoring" />
+  <include package="collective.delegatesiteadmin" />
   <include package="collective.checktranslated" />
 
 
