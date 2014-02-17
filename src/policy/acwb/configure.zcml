@@ -34,6 +34,7 @@
   <include package="collective.galleriffic" />
   <include package="quintagroup.analytics" />
   <include package="collective.recaptcha" />
+  <include package="collective.z3cform.norobots" />
   <include package="qi.portlet.TagClouds" />
   <include package="Products.PloneFormGen" />
   <include package="collective.anysurfer" />

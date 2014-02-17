@@ -55,6 +55,9 @@ setup(name='policy.acwb',
           'collective.languagemovefolders',
           'collective.delegatesiteadmin',
           'cirb.zopemonitoring',
+          'plone.app.discussion',
+          'collective.z3cform.norobots',
+
       ],
       extras_require={'test': ['plone.app.testing']},
       entry_points="""
